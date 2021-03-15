@@ -14,11 +14,20 @@
   <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      el: '#app',
+      name: '文档中心',
+      repo: 'test',
+      // 测行栏
+      loadSidebar: true,
+      subMaxLevel: 2,
+      // 导航栏
+      // loadNavbar: true,
+      // 封面
+      // coverpage: true
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>

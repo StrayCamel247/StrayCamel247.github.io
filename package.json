@@ -23,5 +23,9 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.3",
+    "now": "^21.0.1"
   }
 }
